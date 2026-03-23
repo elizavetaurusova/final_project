@@ -1,0 +1,43 @@
+create table if not exists mart_orders (
+    order_date     date        not null,
+    year           int         not null,
+    month          int         not null,
+    day            int         not null,
+    city           text,
+    store_id       bigint      not null,
+    store_address  text,
+    turnover                numeric(15,2) default 0,
+    revenue                 numeric(15,2) default 0,
+    profit                  numeric(15,2) default 0,
+    total_orders            int           default 0,
+    delivered_orders        int           default 0,
+    canceled_orders         int           default 0,
+    canceled_after_delivery int           default 0,
+    canceled_service_errors int           default 0,
+    unique_customers        int           default 0,
+    avg_check               numeric(15,2) default 0,
+    orders_per_customer     numeric(10,2) default 0,
+    revenue_per_customer    numeric(15,2) default 0,
+    courier_changes         int           default 0,
+    active_couriers         int           default 0,
+    primary key (order_date, store_id)
+);
+
+create table if not exists mart_items (
+    order_date     date        not null,
+    year           int         not null,
+    month          int         not null,
+    day            int         not null,
+    city           text,
+    store_id       bigint      not null,
+    store_address  text,
+    item_category  text,
+    item_id        bigint      not null,
+    item_title     text,
+    turnover            numeric(15,2) default 0,
+    items_ordered       numeric(12,2) default 0,
+    items_canceled      numeric(12,2) default 0,
+    orders_with_item    int           default 0,
+    orders_with_cancel  int           default 0,
+    primary key (order_date, store_id, item_id)
+);
