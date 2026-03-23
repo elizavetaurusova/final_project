@@ -51,11 +51,15 @@ services:
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
-    volumes:
+      AIRFLOW_CONN_POSTGRES_DEFAULT: postgresql://airflow:airflow@postgres:5432/airflow
+    volumes:    
       - ./dags:/opt/airflow/dags
       - ./plugins:/opt/airflow/plugins
       - ./logs:/opt/airflow/logs
       - ./config:/opt/airflow/config
+      - ./data:/opt/airflow/data
+      - ./scripts:/opt/airflow/scripts
+      - ./sql:/opt/airflow/sql
     ports:
       - "8080:8080"
     command: webserver
@@ -83,11 +87,15 @@ services:
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW_CONN_POSTGRES_DEFAULT: postgresql://airflow:airflow@postgres:5432/airflow
     volumes:
       - ./dags:/opt/airflow/dags
       - ./plugins:/opt/airflow/plugins
       - ./logs:/opt/airflow/logs
       - ./config:/opt/airflow/config
+      - ./data:/opt/airflow/data
+      - ./scripts:/opt/airflow/scripts
+      - ./sql:/opt/airflow/sql
     command: scheduler
     restart: unless-stopped
     networks:
@@ -105,6 +113,7 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW_CONN_POSTGRES_DEFAULT: postgresql://airflow:airflow@postgres:5432/airflow
     entrypoint: >
       bash -c "airflow db init &&
                airflow users create --username admin --firstname Seminar --lastname Admin --role Admin --email admin@project_seminar.com --password admin || true"

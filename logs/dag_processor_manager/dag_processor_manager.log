@@ -1,0 +1,2182 @@
+[2026-03-22T18:10:28.552+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-22T18:10:28.554+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-22T18:10:28.555+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-22T18:10:28.555+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:10:28.556+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:15:29.154+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:15:29.163+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:20:30.022+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:20:30.027+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:25:30.761+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:25:30.770+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:30:31.546+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:30:31.554+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:35:32.245+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:35:32.254+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:40:32.719+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:40:32.724+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:45:33.535+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:45:33.539+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:50:34.256+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:50:34.261+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T18:55:35.102+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T18:55:35.107+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:02:07.665+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-22T19:02:07.667+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-22T19:02:07.668+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-22T19:02:07.669+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:02:07.671+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:07:08.122+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:07:08.131+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:12:08.887+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:12:08.894+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:17:09.611+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:17:09.614+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:22:10.368+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:22:10.375+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:27:11.067+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:27:11.070+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:32:11.911+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:32:11.918+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:37:12.814+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:37:12.820+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:42:13.411+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:42:13.416+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:47:14.051+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:47:14.055+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:52:14.775+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:52:14.780+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T19:57:15.679+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T19:57:15.686+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:02:16.538+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:02:16.547+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:07:16.851+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:07:16.890+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:12:17.329+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:12:17.337+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:17:17.993+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:17:18.000+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:22:18.812+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:22:18.818+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:27:19.607+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:27:19.614+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:32:20.563+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:32:20.569+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:37:21.316+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:37:21.321+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:42:22.040+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:42:22.050+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:47:22.627+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:47:22.634+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:52:23.244+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:52:23.252+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T20:57:24.133+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T20:57:24.142+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:07:18.012+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-22T21:07:18.013+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-22T21:07:18.015+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-22T21:07:18.016+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:07:18.020+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:12:18.322+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:12:18.335+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:17:18.765+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:17:18.773+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:22:19.618+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:22:19.623+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:27:19.701+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:27:19.706+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:32:19.868+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:32:19.906+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:37:20.569+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:37:20.576+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:42:20.880+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:42:20.896+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:47:21.249+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:47:21.258+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:52:21.505+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:52:21.513+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T21:57:21.571+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T21:57:21.577+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:02:22.054+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:02:22.061+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:07:22.285+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:07:22.288+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:12:22.428+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:12:22.436+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:17:22.663+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:17:22.671+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:22:23.662+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:22:23.669+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:27:23.769+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:27:23.774+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:32:24.177+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:32:24.427+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:37:24.350+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:37:24.361+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:42:24.578+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:42:24.583+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:47:25.448+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:47:25.454+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:52:25.495+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:52:25.499+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T22:57:25.788+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T22:57:25.822+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T23:13:03.582+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:13:03.587+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T23:18:04.136+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:18:04.142+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-22T23:23:04.199+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:23:04.211+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:23:11.529+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.17s           2026-03-22T23:23:04
+================================================================================
+[2026-03-22T23:23:41.795+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:23:34
+================================================================================
+[2026-03-22T23:24:12.028+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:24:05
+================================================================================
+[2026-03-22T23:24:42.458+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:24:35
+================================================================================
+[2026-03-22T23:25:12.690+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.13s           2026-03-22T23:25:05
+================================================================================
+[2026-03-22T23:25:42.931+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:25:35
+================================================================================
+[2026-03-22T23:26:13.216+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:26:06
+================================================================================
+[2026-03-22T23:26:43.507+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.04s           2026-03-22T23:26:24
+================================================================================
+[2026-03-22T23:27:13.760+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:26:54
+================================================================================
+[2026-03-22T23:27:44.114+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-22T23:27:36
+================================================================================
+[2026-03-22T23:28:04.289+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:28:04.297+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:28:14.418+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:28:06
+================================================================================
+[2026-03-22T23:28:44.704+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-22T23:28:36
+================================================================================
+[2026-03-22T23:29:14.905+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:29:06
+================================================================================
+[2026-03-22T23:29:45.160+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:29:19
+================================================================================
+[2026-03-22T23:30:15.425+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:29:50
+================================================================================
+[2026-03-22T23:30:45.724+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.03s           2026-03-22T23:30:20
+================================================================================
+[2026-03-22T23:31:15.999+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:30:50
+================================================================================
+[2026-03-22T23:31:46.289+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:31:21
+================================================================================
+[2026-03-22T23:32:14.842+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:31:51
+================================================================================
+[2026-03-22T23:32:45.196+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-22T23:32:22
+================================================================================
+[2026-03-22T23:33:04.486+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:33:04.491+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:33:14.570+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:32:52
+================================================================================
+[2026-03-22T23:33:47.496+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:33:25
+================================================================================
+[2026-03-22T23:34:17.273+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:33:55
+================================================================================
+[2026-03-22T23:34:48.043+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:34:25
+================================================================================
+[2026-03-22T23:35:18.245+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:34:56
+================================================================================
+[2026-03-22T23:35:48.463+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.04s           2026-03-22T23:35:26
+================================================================================
+[2026-03-22T23:36:18.735+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:35:56
+================================================================================
+[2026-03-22T23:36:48.606+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:36:26
+================================================================================
+[2026-03-22T23:37:13.798+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:36:57
+================================================================================
+[2026-03-22T23:37:44.047+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:37:28
+================================================================================
+[2026-03-22T23:38:05.235+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:38:05.246+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:38:14.338+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:37:58
+================================================================================
+[2026-03-22T23:38:43.289+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:38:29
+================================================================================
+[2026-03-22T23:39:20.446+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:38:59
+================================================================================
+[2026-03-22T23:39:50.686+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:39:29
+================================================================================
+[2026-03-22T23:40:20.934+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-22T23:39:59
+================================================================================
+[2026-03-22T23:40:51.206+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:40:30
+================================================================================
+[2026-03-22T23:41:21.447+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-22T23:41:00
+================================================================================
+[2026-03-22T23:41:51.784+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:41:30
+================================================================================
+[2026-03-22T23:42:22.050+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:42:00
+================================================================================
+[2026-03-22T23:42:52.314+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:42:31
+================================================================================
+[2026-03-22T23:43:05.484+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:43:05.489+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:43:22.623+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:43:01
+================================================================================
+[2026-03-22T23:43:52.892+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:43:31
+================================================================================
+[2026-03-22T23:44:23.160+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:44:02
+================================================================================
+[2026-03-22T23:44:53.389+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-22T23:44:32
+================================================================================
+[2026-03-22T23:45:23.769+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-22T23:45:02
+================================================================================
+[2026-03-22T23:45:54.031+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:45:32
+================================================================================
+[2026-03-22T23:46:24.306+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:46:03
+================================================================================
+[2026-03-22T23:46:54.597+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:46:33
+================================================================================
+[2026-03-22T23:47:24.877+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:47:03
+================================================================================
+[2026-03-22T23:47:55.135+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:47:33
+================================================================================
+[2026-03-22T23:48:06.240+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:48:06.244+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:48:25.381+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:48:04
+================================================================================
+[2026-03-22T23:48:55.625+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:48:34
+================================================================================
+[2026-03-22T23:49:25.855+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.04s           2026-03-22T23:49:04
+================================================================================
+[2026-03-22T23:49:56.089+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:49:35
+================================================================================
+[2026-03-22T23:50:26.377+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:50:05
+================================================================================
+[2026-03-22T23:50:56.582+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.05s           2026-03-22T23:50:35
+================================================================================
+[2026-03-22T23:51:26.854+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:51:05
+================================================================================
+[2026-03-22T23:51:57.131+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:51:36
+================================================================================
+[2026-03-22T23:52:27.401+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:52:06
+================================================================================
+[2026-03-22T23:52:57.581+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:52:36
+================================================================================
+[2026-03-22T23:53:06.744+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:53:06.754+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:53:27.960+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:53:06
+================================================================================
+[2026-03-22T23:53:58.211+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:53:37
+================================================================================
+[2026-03-22T23:54:28.512+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:54:07
+================================================================================
+[2026-03-22T23:54:58.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-22T23:54:37
+================================================================================
+[2026-03-22T23:55:29.033+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:55:07
+================================================================================
+[2026-03-22T23:55:59.304+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:55:38
+================================================================================
+[2026-03-22T23:56:29.591+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.09s           2026-03-22T23:56:08
+================================================================================
+[2026-03-22T23:56:59.850+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.06s           2026-03-22T23:56:38
+================================================================================
+[2026-03-22T23:57:30.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-22T23:57:09
+================================================================================
+[2026-03-22T23:58:00.380+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:57:39
+================================================================================
+[2026-03-22T23:58:07.436+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T23:58:07.451+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-22T23:58:30.638+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:58:09
+================================================================================
+[2026-03-22T23:59:00.927+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:58:39
+================================================================================
+[2026-03-22T23:59:31.244+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-22T23:59:10
+================================================================================
+[2026-03-23T00:00:01.526+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-22T23:59:40
+================================================================================
+[2026-03-23T00:00:31.851+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-23T00:00:10
+================================================================================
+[2026-03-23T00:01:02.215+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-23T00:00:41
+================================================================================
+[2026-03-23T00:01:32.483+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.17s           2026-03-23T00:01:11
+================================================================================
+[2026-03-23T00:02:02.733+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.10s           2026-03-23T00:01:41
+================================================================================
+[2026-03-23T00:02:33.154+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.11s           2026-03-23T00:02:11
+================================================================================
+[2026-03-23T00:03:03.493+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-23T00:02:42
+================================================================================
+[2026-03-23T00:03:07.555+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:03:07.562+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:03:33.853+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.12s           2026-03-23T00:03:12
+================================================================================
+[2026-03-23T00:04:04.110+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-23T00:03:42
+================================================================================
+[2026-03-23T00:04:34.314+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.07s           2026-03-23T00:04:13
+================================================================================
+[2026-03-23T00:05:04.624+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.08s           2026-03-23T00:04:43
+================================================================================
+[2026-03-23T00:05:34.901+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           0           1  0.13s           2026-03-23T00:05:13
+================================================================================
+[2026-03-23T00:06:05.154+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.03s           2026-03-23T00:05:45
+================================================================================
+[2026-03-23T00:06:35.260+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.85s           2026-03-23T00:06:16
+================================================================================
+[2026-03-23T00:07:05.631+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.55s           2026-03-23T00:06:46
+================================================================================
+[2026-03-23T00:07:35.899+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.80s           2026-03-23T00:07:17
+================================================================================
+[2026-03-23T00:08:06.247+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.57s           2026-03-23T00:07:48
+================================================================================
+[2026-03-23T00:08:07.727+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:08:07.735+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:08:36.473+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.59s           2026-03-23T00:08:19
+================================================================================
+[2026-03-23T00:09:06.715+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T00:08:50
+================================================================================
+[2026-03-23T00:09:36.982+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:09:20
+================================================================================
+[2026-03-23T00:10:07.250+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py    721  0.01s             1           0  0.49s           2026-03-23T00:09:51
+================================================================================
+[2026-03-23T00:10:38.020+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py    727  0.02s             1           0  0.52s           2026-03-23T00:10:07
+================================================================================
+[2026-03-23T00:11:08.295+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.01s           2026-03-23T00:10:39
+================================================================================
+[2026-03-23T00:11:38.566+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.49s           2026-03-23T00:11:09
+================================================================================
+[2026-03-23T00:12:08.757+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.49s           2026-03-23T00:11:40
+================================================================================
+[2026-03-23T00:12:39.598+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.64s           2026-03-23T00:12:11
+================================================================================
+[2026-03-23T00:13:07.835+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:13:07.845+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:13:09.870+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T00:12:42
+================================================================================
+[2026-03-23T00:13:39.979+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.42s           2026-03-23T00:13:12
+================================================================================
+[2026-03-23T00:14:10.008+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.83s           2026-03-23T00:13:43
+================================================================================
+[2026-03-23T00:14:40.276+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.63s           2026-03-23T00:14:14
+================================================================================
+[2026-03-23T00:15:10.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.54s           2026-03-23T00:14:45
+================================================================================
+[2026-03-23T00:15:41.171+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.67s           2026-03-23T00:15:16
+================================================================================
+[2026-03-23T00:16:11.489+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T00:15:46
+================================================================================
+[2026-03-23T00:16:41.704+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.56s           2026-03-23T00:16:17
+================================================================================
+[2026-03-23T00:17:11.947+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:16:48
+================================================================================
+[2026-03-23T00:17:42.253+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T00:17:19
+================================================================================
+[2026-03-23T00:18:08.048+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:18:08.058+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:18:12.536+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T00:17:49
+================================================================================
+[2026-03-23T00:18:42.789+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T00:18:20
+================================================================================
+[2026-03-23T00:19:13.093+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.57s           2026-03-23T00:18:51
+================================================================================
+[2026-03-23T00:19:43.420+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.79s           2026-03-23T00:19:22
+================================================================================
+[2026-03-23T00:21:38.053+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-23T00:21:38.053+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-23T00:21:38.054+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-23T00:21:38.055+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:21:38.068+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:21:38.313+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/normalized_orders_dags.py    164  0.07s             0           0
+================================================================================
+[2026-03-23T00:22:08.538+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  2.30s           2026-03-23T00:21:40
+================================================================================
+[2026-03-23T00:22:38.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.96s           2026-03-23T00:22:11
+================================================================================
+[2026-03-23T00:23:08.939+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.81s           2026-03-23T00:22:42
+================================================================================
+[2026-03-23T00:23:39.359+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.05s           2026-03-23T00:23:14
+================================================================================
+[2026-03-23T00:24:09.339+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.73s           2026-03-23T00:23:45
+================================================================================
+[2026-03-23T00:24:39.560+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.69s           2026-03-23T00:24:16
+================================================================================
+[2026-03-23T00:25:10.195+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.65s           2026-03-23T00:24:47
+================================================================================
+[2026-03-23T00:25:40.691+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.76s           2026-03-23T00:25:18
+================================================================================
+[2026-03-23T00:26:10.758+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.69s           2026-03-23T00:25:49
+================================================================================
+[2026-03-23T00:26:38.304+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:26:38.321+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:26:40.854+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.79s           2026-03-23T00:26:20
+================================================================================
+[2026-03-23T00:27:10.913+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.83s           2026-03-23T00:26:51
+================================================================================
+[2026-03-23T00:27:40.993+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.76s           2026-03-23T00:27:22
+================================================================================
+[2026-03-23T00:28:11.453+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.73s           2026-03-23T00:27:53
+================================================================================
+[2026-03-23T00:28:41.680+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.95s           2026-03-23T00:28:25
+================================================================================
+[2026-03-23T00:29:11.960+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.70s           2026-03-23T00:28:56
+================================================================================
+[2026-03-23T00:29:42.534+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.57s           2026-03-23T00:29:26
+================================================================================
+[2026-03-23T00:30:13.119+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T00:29:57
+================================================================================
+[2026-03-23T00:30:43.385+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.62s           2026-03-23T00:30:28
+================================================================================
+[2026-03-23T00:31:13.667+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.41s           2026-03-23T00:30:58
+================================================================================
+[2026-03-23T00:31:38.653+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:31:38.663+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:31:43.714+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T00:31:29
+================================================================================
+[2026-03-23T00:32:13.925+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.40s           2026-03-23T00:32:00
+================================================================================
+[2026-03-23T00:32:44.539+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T00:32:30
+================================================================================
+[2026-03-23T00:33:14.602+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.43s           2026-03-23T00:33:01
+================================================================================
+[2026-03-23T00:33:44.789+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.46s           2026-03-23T00:33:32
+================================================================================
+[2026-03-23T00:34:14.873+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.41s           2026-03-23T00:34:02
+================================================================================
+[2026-03-23T00:34:45.088+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.37s           2026-03-23T00:34:33
+================================================================================
+[2026-03-23T00:35:15.679+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.39s           2026-03-23T00:35:03
+================================================================================
+[2026-03-23T00:35:46.315+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.41s           2026-03-23T00:35:34
+================================================================================
+[2026-03-23T00:36:16.944+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.42s           2026-03-23T00:36:05
+================================================================================
+[2026-03-23T00:36:38.898+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:36:38.915+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:36:43.587+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.38s           2026-03-23T00:36:35
+================================================================================
+[2026-03-23T00:37:18.128+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.43s           2026-03-23T00:37:06
+================================================================================
+[2026-03-23T00:37:48.265+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.50s           2026-03-23T00:37:37
+================================================================================
+[2026-03-23T00:38:19.123+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.74s           2026-03-23T00:38:08
+================================================================================
+[2026-03-23T00:38:49.430+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.41s           2026-03-23T00:38:38
+================================================================================
+[2026-03-23T00:39:20.061+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.43s           2026-03-23T00:39:09
+================================================================================
+[2026-03-23T00:39:50.078+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T00:39:40
+================================================================================
+[2026-03-23T00:40:20.359+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.46s           2026-03-23T00:40:10
+================================================================================
+[2026-03-23T00:40:50.388+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T00:40:41
+================================================================================
+[2026-03-23T00:41:20.606+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:41:12
+================================================================================
+[2026-03-23T00:41:39.212+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:41:39.224+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:41:50.894+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.60s           2026-03-23T00:41:42
+================================================================================
+[2026-03-23T00:42:21.055+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.79s           2026-03-23T00:42:13
+================================================================================
+[2026-03-23T00:42:51.502+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.09s           2026-03-23T00:42:45
+================================================================================
+[2026-03-23T00:43:21.961+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.51s           2026-03-23T00:43:16
+================================================================================
+[2026-03-23T00:43:52.285+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.55s           2026-03-23T00:43:47
+================================================================================
+[2026-03-23T00:44:22.617+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.35s           2026-03-23T00:44:18
+================================================================================
+[2026-03-23T00:44:53.211+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T00:44:49
+================================================================================
+[2026-03-23T00:45:23.254+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.49s           2026-03-23T00:45:20
+================================================================================
+[2026-03-23T00:45:53.437+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.74s           2026-03-23T00:45:51
+================================================================================
+[2026-03-23T00:46:23.651+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:46:22
+================================================================================
+[2026-03-23T00:46:39.251+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:46:39.269+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:46:53.903+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:46:52
+================================================================================
+[2026-03-23T00:47:24.337+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.91s           2026-03-23T00:47:24
+================================================================================
+[2026-03-23T00:47:54.763+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py    555  0.03s             1           0  0.91s           2026-03-23T00:47:24
+================================================================================
+[2026-03-23T00:48:25.005+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T00:47:55
+================================================================================
+[2026-03-23T00:48:55.269+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.68s           2026-03-23T00:48:26
+================================================================================
+[2026-03-23T00:49:25.295+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.52s           2026-03-23T00:48:57
+================================================================================
+[2026-03-23T00:49:56.133+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.70s           2026-03-23T00:49:28
+================================================================================
+[2026-03-23T00:50:26.643+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.70s           2026-03-23T00:49:58
+================================================================================
+[2026-03-23T00:50:57.007+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.61s           2026-03-23T00:50:29
+================================================================================
+[2026-03-23T00:51:27.565+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.92s           2026-03-23T00:51:01
+================================================================================
+[2026-03-23T00:51:39.494+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:51:39.541+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:51:58.117+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.74s           2026-03-23T00:51:32
+================================================================================
+[2026-03-23T00:52:28.373+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.47s           2026-03-23T00:52:03
+================================================================================
+[2026-03-23T00:52:58.535+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.48s           2026-03-23T00:52:34
+================================================================================
+[2026-03-23T00:53:28.753+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.03s           2026-03-23T00:53:05
+================================================================================
+[2026-03-23T00:53:59.067+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.83s           2026-03-23T00:53:36
+================================================================================
+[2026-03-23T00:54:29.133+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.77s           2026-03-23T00:54:07
+================================================================================
+[2026-03-23T00:54:59.263+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.65s           2026-03-23T00:54:38
+================================================================================
+[2026-03-23T00:55:29.961+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.72s           2026-03-23T00:55:10
+================================================================================
+[2026-03-23T00:56:00.066+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.61s           2026-03-23T00:55:40
+================================================================================
+[2026-03-23T00:56:30.691+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T00:56:11
+================================================================================
+[2026-03-23T00:56:39.801+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T00:56:39.861+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T00:57:01.107+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.61s           2026-03-23T00:56:42
+================================================================================
+[2026-03-23T00:57:32.010+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.07s           2026-03-23T00:57:13
+================================================================================
+[2026-03-23T00:58:02.270+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T00:57:44
+================================================================================
+[2026-03-23T00:58:32.497+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.70s           2026-03-23T00:58:15
+================================================================================
+[2026-03-23T00:59:02.588+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.82s           2026-03-23T00:58:46
+================================================================================
+[2026-03-23T00:59:33.101+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.59s           2026-03-23T00:59:17
+================================================================================
+[2026-03-23T01:00:03.334+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.57s           2026-03-23T00:59:48
+================================================================================
+[2026-03-23T01:00:33.610+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.92s           2026-03-23T01:00:19
+================================================================================
+[2026-03-23T01:01:03.776+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.68s           2026-03-23T01:00:50
+================================================================================
+[2026-03-23T01:01:34.148+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.13s           2026-03-23T01:01:22
+================================================================================
+[2026-03-23T01:01:40.205+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:01:40.227+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:02:04.496+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T01:01:52
+================================================================================
+[2026-03-23T01:02:34.847+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.50s           2026-03-23T01:02:23
+================================================================================
+[2026-03-23T01:03:05.031+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.84s           2026-03-23T01:02:54
+================================================================================
+[2026-03-23T01:03:35.314+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.96s           2026-03-23T01:03:26
+================================================================================
+[2026-03-23T01:04:05.619+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.43s           2026-03-23T01:03:56
+================================================================================
+[2026-03-23T01:04:35.794+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.51s           2026-03-23T01:04:27
+================================================================================
+[2026-03-23T01:05:05.976+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.92s           2026-03-23T01:04:58
+================================================================================
+[2026-03-23T01:05:36.259+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.50s           2026-03-23T01:05:29
+================================================================================
+[2026-03-23T01:06:06.579+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.63s           2026-03-23T01:06:00
+================================================================================
+[2026-03-23T01:06:36.702+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.65s           2026-03-23T01:06:31
+================================================================================
+[2026-03-23T01:06:40.789+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:06:40.802+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:07:07.019+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.93s           2026-03-23T01:07:02
+================================================================================
+[2026-03-23T01:07:37.517+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.47s           2026-03-23T01:07:33
+================================================================================
+[2026-03-23T01:08:07.634+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.70s           2026-03-23T01:08:04
+================================================================================
+[2026-03-23T01:08:37.826+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.68s           2026-03-23T01:08:35
+================================================================================
+[2026-03-23T01:09:08.104+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.84s           2026-03-23T01:09:07
+================================================================================
+[2026-03-23T01:09:38.755+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.48s           2026-03-23T01:09:37
+================================================================================
+[2026-03-23T01:10:08.819+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.64s           2026-03-23T01:10:08
+================================================================================
+[2026-03-23T01:10:39.523+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py    819  0.03s             1           0  0.64s           2026-03-23T01:10:08
+================================================================================
+[2026-03-23T01:11:09.616+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.84s           2026-03-23T01:10:40
+================================================================================
+[2026-03-23T01:11:38.532+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.61s           2026-03-23T01:11:11
+================================================================================
+[2026-03-23T01:11:41.567+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:11:41.588+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:12:09.744+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.95s           2026-03-23T01:11:42
+================================================================================
+[2026-03-23T01:12:40.829+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.41s           2026-03-23T01:12:14
+================================================================================
+[2026-03-23T01:13:10.903+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.69s           2026-03-23T01:12:45
+================================================================================
+[2026-03-23T01:13:41.386+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.72s           2026-03-23T01:13:16
+================================================================================
+[2026-03-23T01:14:11.543+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.49s           2026-03-23T01:13:47
+================================================================================
+[2026-03-23T01:14:41.796+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.44s           2026-03-23T01:14:18
+================================================================================
+[2026-03-23T01:15:12.178+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.72s           2026-03-23T01:14:48
+================================================================================
+[2026-03-23T01:15:41.990+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.47s           2026-03-23T01:15:19
+================================================================================
+[2026-03-23T01:16:13.209+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.66s           2026-03-23T01:15:50
+================================================================================
+[2026-03-23T01:16:41.590+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:16:41.608+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:16:43.638+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.47s           2026-03-23T01:16:21
+================================================================================
+[2026-03-23T01:17:13.704+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T01:16:52
+================================================================================
+[2026-03-23T01:17:44.428+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.79s           2026-03-23T01:17:23
+================================================================================
+[2026-03-23T01:18:14.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.74s           2026-03-23T01:17:54
+================================================================================
+[2026-03-23T01:18:45.223+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.63s           2026-03-23T01:18:25
+================================================================================
+[2026-03-23T01:19:15.500+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.64s           2026-03-23T01:18:56
+================================================================================
+[2026-03-23T01:19:45.851+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.62s           2026-03-23T01:19:27
+================================================================================
+[2026-03-23T01:20:16.152+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.94s           2026-03-23T01:19:58
+================================================================================
+[2026-03-23T01:20:41.438+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.60s           2026-03-23T01:20:29
+================================================================================
+[2026-03-23T01:21:16.501+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.61s           2026-03-23T01:21:00
+================================================================================
+[2026-03-23T01:21:42.216+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:21:42.230+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:21:47.285+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.54s           2026-03-23T01:21:31
+================================================================================
+[2026-03-23T01:22:17.552+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.00s           2026-03-23T01:22:02
+================================================================================
+[2026-03-23T01:22:47.844+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T01:22:33
+================================================================================
+[2026-03-23T01:23:18.094+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.00s           2026-03-23T01:23:04
+================================================================================
+[2026-03-23T01:23:48.155+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.19s           2026-03-23T01:23:36
+================================================================================
+[2026-03-23T01:24:18.551+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.50s           2026-03-23T01:24:06
+================================================================================
+[2026-03-23T01:24:48.754+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.60s           2026-03-23T01:24:37
+================================================================================
+[2026-03-23T01:25:19.037+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.45s           2026-03-23T01:25:08
+================================================================================
+[2026-03-23T01:25:49.926+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.07s           2026-03-23T01:25:39
+================================================================================
+[2026-03-23T01:26:20.188+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.92s           2026-03-23T01:26:11
+================================================================================
+[2026-03-23T01:26:42.671+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T01:26:42.695+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-23T01:26:50.270+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.59s           2026-03-23T01:26:42
+================================================================================
+[2026-03-23T01:27:21.027+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.58s           2026-03-23T01:27:13
+================================================================================
+[2026-03-23T01:27:51.133+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.76s           2026-03-23T01:27:44
+================================================================================
+[2026-03-23T01:28:21.356+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.67s           2026-03-23T01:28:15
+================================================================================
+[2026-03-23T01:28:51.541+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.91s           2026-03-23T01:28:46
+================================================================================
+[2026-03-23T01:29:22.205+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.68s           2026-03-23T01:29:17
+================================================================================
+[2026-03-23T01:29:52.711+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  0.53s           2026-03-23T01:29:48
+================================================================================
+[2026-03-23T01:30:23.455+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/normalized_orders_dags.py                           1           0  1.14s           2026-03-23T01:30:19
+================================================================================

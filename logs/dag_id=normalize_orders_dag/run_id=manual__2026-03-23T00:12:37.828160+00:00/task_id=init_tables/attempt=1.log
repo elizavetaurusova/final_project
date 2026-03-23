@@ -1,0 +1,128 @@
+[2026-03-23T00:12:39.103+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T00:12:39.130+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:12:37.828160+00:00 [queued]>
+[2026-03-23T00:12:39.136+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:12:37.828160+00:00 [queued]>
+[2026-03-23T00:12:39.137+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-23T00:12:39.144+0000] {taskinstance.py:2330} INFO - Executing <Task(SQLExecuteQueryOperator): init_tables> on 2026-03-23 00:12:37.828160+00:00
+[2026-03-23T00:12:39.151+0000] {standard_task_runner.py:64} INFO - Started process 770 to run task
+[2026-03-23T00:12:39.153+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'normalize_orders_dag', 'init_tables', 'manual__2026-03-23T00:12:37.828160+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/normalized_orders_dags.py', '--cfg-path', '/tmp/tmpqoyh__hv']
+[2026-03-23T00:12:39.154+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask init_tables
+[2026-03-23T00:12:39.169+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-23T00:12:39.197+0000] {task_command.py:426} INFO - Running <TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:12:37.828160+00:00 [running]> on host 91c62af85091
+[2026-03-23T00:12:39.413+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='normalize_orders_dag' AIRFLOW_CTX_TASK_ID='init_tables' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T00:12:37.828160+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T00:12:37.828160+00:00'
+[2026-03-23T00:12:39.414+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T00:12:39.421+0000] {sql.py:282} INFO - Executing: create table if not exists raw_orders (
+    order_id bigint,
+    user_id bigint,
+    user_phone text,
+    address_text text,
+    created_at timestamp,
+    paid_at timestamp,
+    delivery_started_at timestamp,
+    delivered_at timestamp,
+    canceled_at timestamp,
+    payment_type text,
+    item_id bigint,
+    item_title text,
+    item_category text,
+    item_quantity numeric(10,2),
+    item_price numeric(10,2),
+    item_canceled_quantity numeric(10,2),
+    item_replaced_id bigint,
+    order_discount numeric(5,2),
+    item_discount numeric(5,2),
+    order_cancellation_reason text,
+    driver_id bigint,
+    driver_phone text,
+    delivery_cost numeric(10,2),
+    store_id bigint,
+    store_address text
+);
+
+create table if not exists users (
+    user_id bigint primary key,
+    user_phone text
+);
+
+create table if not exists stores (
+    store_id bigint primary key,
+    store_address text
+);
+
+create table if not exists drivers (
+    driver_id bigint primary key,
+    driver_phone text
+);
+
+create table if not exists products (
+    item_id bigint primary key,
+    item_title text,
+    item_category text
+);
+
+create table if not exists order_drivers (
+    order_id bigint not null,
+    driver_id bigint not null references drivers(driver_id),
+    driver_delivery_cost numeric(10,2),
+    driver_delivered_at timestamp,
+    driver_canceled_at timestamp,
+    is_final_driver boolean,
+    primary key (order_id, driver_id)
+);
+
+create table if not exists orders (
+    order_id bigint primary key,
+    user_id bigint not null references users(user_id),
+    store_id bigint not null references stores(store_id),
+    address_text text,
+    created_at timestamp,
+    paid_at timestamp,
+    delivery_started_at timestamp,
+    delivered_at timestamp,
+    canceled_at timestamp,
+    payment_type text,
+    order_discount numeric(5,2),
+    order_cancellation_reason text,
+    delivery_cost_final numeric(10,2)
+);
+
+create table if not exists order_items (
+    order_item_sk bigserial primary key,
+    order_id bigint not null references orders(order_id),
+    item_id bigint not null references products(item_id),
+    item_quantity numeric(10,2),
+    item_price numeric(10,2),
+    item_canceled_quantity numeric(10,2),
+    item_discount numeric(5,2),
+    item_replaced_id bigint
+);
+[2026-03-23T00:12:39.426+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-23T00:12:39.433+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-23T00:12:39.435+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T00:12:39.435+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/common/sql/operators/sql.py", line 288, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/common/sql/hooks/sql.py", line 438, in run
+    with self._create_autocommit_connection(autocommit) as conn:
+  File "/usr/local/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/common/sql/hooks/sql.py", line 560, in _create_autocommit_connection
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/hooks/postgres.py", line 176, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.20.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[2026-03-23T00:12:39.443+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=normalize_orders_dag, task_id=init_tables, run_id=manual__2026-03-23T00:12:37.828160+00:00, execution_date=20260323T001237, start_date=20260323T001239, end_date=20260323T001239
+[2026-03-23T00:12:39.457+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task init_tables (connection to server at "postgres" (172.20.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+; 770)
+[2026-03-23T00:12:39.467+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-03-23T00:12:39.484+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T00:12:39.488+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
