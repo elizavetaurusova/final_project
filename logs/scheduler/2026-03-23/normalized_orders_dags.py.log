@@ -6789,3 +6789,192 @@ jinja2.exceptions.TemplateNotFound: /opt/airflow/sql/truncate_normalized_tables.
 [2026-03-23T20:20:03.754+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:20:03.754+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-03-23T20:20:03.774+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:20:03.774+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
 [2026-03-23T20:20:03.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.670 seconds
+[2026-03-23T20:20:34.163+0000] {processor.py:161} INFO - Started process (PID=8731) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:20:34.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:20:34.170+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:20:34.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:20:34.748+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:20:34.842+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:20:34.841+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:20:34.875+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:20:34.875+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:20:34.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.762 seconds
+[2026-03-23T20:21:05.532+0000] {processor.py:161} INFO - Started process (PID=8742) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:05.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:21:05.535+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:05.535+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:06.167+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:06.240+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:06.240+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:21:06.250+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:06.249+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:21:06.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.761 seconds
+[2026-03-23T20:21:36.857+0000] {processor.py:161} INFO - Started process (PID=8753) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:36.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:21:36.870+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:36.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:37.602+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:21:37.668+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:37.668+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:21:37.726+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:21:37.723+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:21:37.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.910 seconds
+[2026-03-23T20:22:07.906+0000] {processor.py:161} INFO - Started process (PID=8769) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:07.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:22:07.909+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:07.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:08.553+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:08.593+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:08.592+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:22:08.608+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:08.608+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:22:08.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.736 seconds
+[2026-03-23T20:22:39.022+0000] {processor.py:161} INFO - Started process (PID=8780) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:39.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:22:39.026+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:39.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:39.755+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:22:39.817+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:39.817+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:22:39.832+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:22:39.832+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:22:39.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.835 seconds
+[2026-03-23T20:23:10.616+0000] {processor.py:161} INFO - Started process (PID=8791) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:10.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:23:10.620+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:10.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:11.251+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:11.284+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:11.283+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:23:11.303+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:11.302+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:23:11.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.721 seconds
+[2026-03-23T20:23:41.444+0000] {processor.py:161} INFO - Started process (PID=8802) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:41.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:23:41.448+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:41.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:42.169+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:23:42.209+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:42.208+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:23:42.230+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:23:42.230+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:23:42.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.806 seconds
+[2026-03-23T20:24:12.655+0000] {processor.py:161} INFO - Started process (PID=8813) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:12.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:24:12.660+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:12.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:13.297+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:13.373+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:13.372+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:24:13.389+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:13.387+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:24:13.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.766 seconds
+[2026-03-23T20:24:43.588+0000] {processor.py:161} INFO - Started process (PID=8824) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:43.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:24:43.590+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:43.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:44.083+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:24:44.112+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:44.111+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:24:44.126+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:24:44.125+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:24:44.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.577 seconds
+[2026-03-23T20:25:14.991+0000] {processor.py:161} INFO - Started process (PID=8835) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:14.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:25:14.994+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:14.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:15.639+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:15.706+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:15.706+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:25:15.727+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:15.727+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:25:15.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.781 seconds
+[2026-03-23T20:25:46.486+0000] {processor.py:161} INFO - Started process (PID=8846) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:46.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:25:46.494+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:46.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:47.020+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:25:47.079+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:47.078+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:25:47.093+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:25:47.093+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:25:47.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.632 seconds
+[2026-03-23T20:26:17.344+0000] {processor.py:161} INFO - Started process (PID=8857) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:17.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:26:17.353+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:17.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:17.821+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:17.921+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:17.920+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:26:17.952+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:17.952+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:26:17.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.638 seconds
+[2026-03-23T20:26:48.713+0000] {processor.py:161} INFO - Started process (PID=8868) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:48.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:26:48.723+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:48.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:49.233+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:26:49.285+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:49.284+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:26:49.309+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:26:49.308+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:26:49.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.652 seconds
+[2026-03-23T20:27:19.439+0000] {processor.py:161} INFO - Started process (PID=8879) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:19.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:27:19.445+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:19.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:19.979+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:20.018+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:20.018+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:27:20.038+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:20.038+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:27:20.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.623 seconds
+[2026-03-23T20:27:50.788+0000] {processor.py:161} INFO - Started process (PID=8890) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:50.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:27:50.802+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:50.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:51.485+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:27:51.567+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:51.566+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:27:51.586+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:27:51.585+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:27:51.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.854 seconds
+[2026-03-23T20:28:22.400+0000] {processor.py:161} INFO - Started process (PID=8901) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:22.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:28:22.413+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:22.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:23.174+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:23.217+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:23.217+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:28:23.248+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:23.247+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:28:23.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.917 seconds
+[2026-03-23T20:28:53.882+0000] {processor.py:161} INFO - Started process (PID=8912) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:53.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:28:53.887+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:53.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:54.551+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:28:54.582+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:54.581+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:28:54.597+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:28:54.597+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:28:54.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.780 seconds
+[2026-03-23T20:29:25.265+0000] {processor.py:161} INFO - Started process (PID=8923) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:25.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:29:25.271+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:25.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:25.886+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:25.926+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:25.926+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:29:25.938+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:25.937+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:29:25.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.734 seconds
+[2026-03-23T20:29:56.135+0000] {processor.py:161} INFO - Started process (PID=8934) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:56.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:29:56.143+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:56.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:56.835+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:29:56.904+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:56.903+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:29:56.925+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:29:56.924+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:29:56.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.847 seconds
+[2026-03-23T20:30:27.332+0000] {processor.py:161} INFO - Started process (PID=8945) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:27.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:30:27.338+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:27.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:27.843+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:27.891+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:27.890+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:30:27.916+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:27.916+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:30:27.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.622 seconds
+[2026-03-23T20:30:58.121+0000] {processor.py:161} INFO - Started process (PID=8956) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:58.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:30:58.135+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:58.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:58.756+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:30:58.808+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:58.806+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:30:58.839+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:30:58.839+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:30:58.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.755 seconds
+[2026-03-23T20:31:29.275+0000] {processor.py:161} INFO - Started process (PID=8967) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:31:29.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:31:29.283+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:31:29.281+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:31:29.902+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:31:29.986+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:31:29.985+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:31:30.001+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:31:30.001+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:31:30.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.762 seconds
+[2026-03-23T20:32:00.376+0000] {processor.py:161} INFO - Started process (PID=8978) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:00.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:32:00.385+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:00.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:01.046+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:01.121+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:01.119+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:32:01.144+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:01.143+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:32:01.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.804 seconds
+[2026-03-23T20:32:31.700+0000] {processor.py:161} INFO - Started process (PID=8989) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:31.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:32:31.705+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:31.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:32.372+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:32:32.450+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:32.450+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:32:32.466+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:32:32.465+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:32:32.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.829 seconds
+[2026-03-23T20:33:03.171+0000] {processor.py:161} INFO - Started process (PID=9000) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:03.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:33:03.177+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:03.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:03.925+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:04.000+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:03.999+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:33:04.077+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:04.076+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:33:04.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 1.056 seconds
+[2026-03-23T20:33:34.604+0000] {processor.py:161} INFO - Started process (PID=9011) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:34.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:33:34.612+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:34.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:35.472+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:33:35.556+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:35.556+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:33:35.579+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:33:35.579+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:33:35.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 1.022 seconds
+[2026-03-23T20:34:05.998+0000] {processor.py:161} INFO - Started process (PID=9022) to work on /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:34:06.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/normalized_orders_dags.py for tasks to queue
+[2026-03-23T20:34:06.003+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:34:06.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:34:06.554+0000] {processor.py:840} INFO - DAG(s) 'normalize_orders_dag' retrieved from /opt/airflow/dags/normalized_orders_dags.py
+[2026-03-23T20:34:06.638+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:34:06.637+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-23T20:34:06.653+0000] {logging_mixin.py:188} INFO - [2026-03-23T20:34:06.653+0000] {dag.py:3947} INFO - Setting next_dagrun for normalize_orders_dag to None, run_after=None
+[2026-03-23T20:34:06.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/normalized_orders_dags.py took 0.679 seconds
