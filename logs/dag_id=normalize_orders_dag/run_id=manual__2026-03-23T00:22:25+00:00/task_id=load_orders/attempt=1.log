@@ -1,0 +1,145 @@
+[2026-03-23T00:29:18.738+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T00:29:18.769+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: normalize_orders_dag.load_orders manual__2026-03-23T00:22:25+00:00 [queued]>
+[2026-03-23T00:29:18.775+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: normalize_orders_dag.load_orders manual__2026-03-23T00:22:25+00:00 [queued]>
+[2026-03-23T00:29:18.775+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-23T00:29:18.783+0000] {taskinstance.py:2330} INFO - Executing <Task(SQLExecuteQueryOperator): load_orders> on 2026-03-23 00:22:25+00:00
+[2026-03-23T00:29:18.790+0000] {standard_task_runner.py:64} INFO - Started process 315 to run task
+[2026-03-23T00:29:18.797+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'normalize_orders_dag', 'load_orders', 'manual__2026-03-23T00:22:25+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/normalized_orders_dags.py', '--cfg-path', '/tmp/tmpf884f107']
+[2026-03-23T00:29:18.804+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask load_orders
+[2026-03-23T00:29:18.827+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-23T00:29:18.867+0000] {task_command.py:426} INFO - Running <TaskInstance: normalize_orders_dag.load_orders manual__2026-03-23T00:22:25+00:00 [running]> on host ca996c3bceb2
+[2026-03-23T00:29:19.108+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='normalize_orders_dag' AIRFLOW_CTX_TASK_ID='load_orders' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T00:22:25+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T00:22:25+00:00'
+[2026-03-23T00:29:19.112+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T00:29:19.124+0000] {sql.py:282} INFO - Executing: 
+        insert into orders (
+            order_id,
+            user_id,
+            store_id,
+            address_text,
+            created_at,
+            paid_at,
+            delivery_started_at,
+            delivered_at,
+            canceled_at,
+            payment_type,
+            order_discount,
+            order_cancellation_reason,
+            delivery_cost_final
+        )
+        with order_base as (
+            select
+                order_id,
+                max(user_id) as user_id,
+                max(store_id) as store_id,
+                max(address_text) as address_text,
+                max(created_at) as created_at,
+                max(paid_at) as paid_at,
+                max(delivery_started_at) as delivery_started_at,
+                max(delivered_at) as delivered_at,
+                max(canceled_at) as canceled_at,
+                max(payment_type) as payment_type,
+                max(order_discount) as order_discount,
+                max(order_cancellation_reason) as order_cancellation_reason
+            from raw_orders
+            group by order_id
+        ),
+        final_driver_cost as (
+            select
+                order_id,
+                max(driver_delivery_cost) as delivery_cost_final
+            from order_drivers
+            where is_final_driver = true
+            group by order_id
+        )
+        select
+            b.order_id,
+            b.user_id,
+            b.store_id,
+            b.address_text,
+            b.created_at,
+            b.paid_at,
+            b.delivery_started_at,
+            b.delivered_at,
+            b.canceled_at,
+            b.payment_type,
+            b.order_discount,
+            b.order_cancellation_reason,
+            case
+                when b.canceled_at is not null then null
+                else f.delivery_cost_final
+            end
+        from order_base b
+        left join final_driver_cost f
+            on b.order_id = f.order_id;
+        
+[2026-03-23T00:29:19.125+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-03-23T00:29:19.126+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-23T00:29:19.131+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-23T00:29:19.136+0000] {sql.py:495} INFO - Running statement: 
+        insert into orders (
+            order_id,
+            user_id,
+            store_id,
+            address_text,
+            created_at,
+            paid_at,
+            delivery_started_at,
+            delivered_at,
+            canceled_at,
+            payment_type,
+            order_discount,
+            order_cancellation_reason,
+            delivery_cost_final
+        )
+        with order_base as (
+            select
+                order_id,
+                max(user_id) as user_id,
+                max(store_id) as store_id,
+                max(address_text) as address_text,
+                max(created_at) as created_at,
+                max(paid_at) as paid_at,
+                max(delivery_started_at) as delivery_started_at,
+                max(delivered_at) as delivered_at,
+                max(canceled_at) as canceled_at,
+                max(payment_type) as payment_type,
+                max(order_discount) as order_discount,
+                max(order_cancellation_reason) as order_cancellation_reason
+            from raw_orders
+            group by order_id
+        ),
+        final_driver_cost as (
+            select
+                order_id,
+                max(driver_delivery_cost) as delivery_cost_final
+            from order_drivers
+            where is_final_driver = true
+            group by order_id
+        )
+        select
+            b.order_id,
+            b.user_id,
+            b.store_id,
+            b.address_text,
+            b.created_at,
+            b.paid_at,
+            b.delivery_started_at,
+            b.delivered_at,
+            b.canceled_at,
+            b.payment_type,
+            b.order_discount,
+            b.order_cancellation_reason,
+            case
+                when b.canceled_at is not null then null
+                else f.delivery_cost_final
+            end
+        from order_base b
+        left join final_driver_cost f
+            on b.order_id = f.order_id;
+        , parameters: None
+[2026-03-23T00:29:21.053+0000] {sql.py:504} INFO - Rows affected: 30000
+[2026-03-23T00:29:21.064+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T00:29:21.123+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=normalize_orders_dag, task_id=load_orders, run_id=manual__2026-03-23T00:22:25+00:00, execution_date=20260323T002225, start_date=20260323T002918, end_date=20260323T002921
+[2026-03-23T00:29:21.173+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-23T00:29:21.238+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T00:29:21.240+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

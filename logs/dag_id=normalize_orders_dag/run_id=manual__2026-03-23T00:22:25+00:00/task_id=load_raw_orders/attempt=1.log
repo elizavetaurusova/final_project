@@ -1,0 +1,44 @@
+[2026-03-23T00:22:27.776+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T00:22:27.794+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: normalize_orders_dag.load_raw_orders manual__2026-03-23T00:22:25+00:00 [queued]>
+[2026-03-23T00:22:27.799+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: normalize_orders_dag.load_raw_orders manual__2026-03-23T00:22:25+00:00 [queued]>
+[2026-03-23T00:22:27.799+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-23T00:22:27.806+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_raw_orders> on 2026-03-23 00:22:25+00:00
+[2026-03-23T00:22:27.809+0000] {standard_task_runner.py:64} INFO - Started process 208 to run task
+[2026-03-23T00:22:27.811+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'normalize_orders_dag', 'load_raw_orders', 'manual__2026-03-23T00:22:25+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/normalized_orders_dags.py', '--cfg-path', '/tmp/tmpmze95nvj']
+[2026-03-23T00:22:27.812+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask load_raw_orders
+[2026-03-23T00:22:27.822+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-23T00:22:27.843+0000] {task_command.py:426} INFO - Running <TaskInstance: normalize_orders_dag.load_raw_orders manual__2026-03-23T00:22:25+00:00 [running]> on host ca996c3bceb2
+[2026-03-23T00:22:27.976+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='normalize_orders_dag' AIRFLOW_CTX_TASK_ID='load_raw_orders' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T00:22:25+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T00:22:25+00:00'
+[2026-03-23T00:22:27.977+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T00:22:27.984+0000] {logging_mixin.py:188} INFO - Найдены parquet-файлы:
+[2026-03-23T00:22:27.984+0000] {logging_mixin.py:188} INFO -  - chunk_1130001_1140000.parquet
+[2026-03-23T00:22:27.985+0000] {logging_mixin.py:188} INFO -  - chunk_1280001_1290000.parquet
+[2026-03-23T00:22:27.985+0000] {logging_mixin.py:188} INFO -  - chunk_170001_180000.parquet
+[2026-03-23T00:22:28.055+0000] {logging_mixin.py:188} INFO - 
+Таблица raw_orders очищена. Начинается загрузка данных...
+[2026-03-23T00:22:28.067+0000] {logging_mixin.py:188} INFO - 
+Обрабатывается файл: chunk_1130001_1140000.parquet
+[2026-03-23T00:22:28.067+0000] {logging_mixin.py:188} INFO - Всего строк в файле: 293631
+[2026-03-23T00:23:15.948+0000] {logging_mixin.py:188} INFO -   Пакет 1: загружено 100000 строк, всего загружено из файла: 100000
+[2026-03-23T00:24:01.658+0000] {logging_mixin.py:188} INFO -   Пакет 2: загружено 100000 строк, всего загружено из файла: 200000
+[2026-03-23T00:24:44.644+0000] {logging_mixin.py:188} INFO -   Пакет 3: загружено 93631 строк, всего загружено из файла: 293631
+[2026-03-23T00:24:44.745+0000] {logging_mixin.py:188} INFO - 
+Обрабатывается файл: chunk_1280001_1290000.parquet
+[2026-03-23T00:24:44.745+0000] {logging_mixin.py:188} INFO - Всего строк в файле: 288607
+[2026-03-23T00:25:29.591+0000] {logging_mixin.py:188} INFO -   Пакет 1: загружено 100000 строк, всего загружено из файла: 100000
+[2026-03-23T00:26:17.982+0000] {logging_mixin.py:188} INFO -   Пакет 2: загружено 100000 строк, всего загружено из файла: 200000
+[2026-03-23T00:27:02.113+0000] {logging_mixin.py:188} INFO -   Пакет 3: загружено 88607 строк, всего загружено из файла: 288607
+[2026-03-23T00:27:02.230+0000] {logging_mixin.py:188} INFO - 
+Обрабатывается файл: chunk_170001_180000.parquet
+[2026-03-23T00:27:02.231+0000] {logging_mixin.py:188} INFO - Всего строк в файле: 288198
+[2026-03-23T00:27:49.705+0000] {logging_mixin.py:188} INFO -   Пакет 1: загружено 100000 строк, всего загружено из файла: 100000
+[2026-03-23T00:28:30.637+0000] {logging_mixin.py:188} INFO -   Пакет 2: загружено 100000 строк, всего загружено из файла: 200000
+[2026-03-23T00:29:03.661+0000] {logging_mixin.py:188} INFO -   Пакет 3: загружено 88198 строк, всего загружено из файла: 288198
+[2026-03-23T00:29:03.757+0000] {logging_mixin.py:188} INFO - 
+Загрузка всех parquet-файлов в raw_orders завершена успешно
+[2026-03-23T00:29:03.757+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-23T00:29:03.758+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T00:29:03.767+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=normalize_orders_dag, task_id=load_raw_orders, run_id=manual__2026-03-23T00:22:25+00:00, execution_date=20260323T002225, start_date=20260323T002227, end_date=20260323T002903
+[2026-03-23T00:29:03.825+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-23T00:29:03.865+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T00:29:03.866+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

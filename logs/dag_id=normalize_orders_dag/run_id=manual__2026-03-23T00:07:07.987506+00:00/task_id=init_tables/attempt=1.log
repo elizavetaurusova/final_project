@@ -1,0 +1,53 @@
+[2026-03-23T00:07:09.314+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T00:07:09.343+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:07:07.987506+00:00 [queued]>
+[2026-03-23T00:07:09.348+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:07:07.987506+00:00 [queued]>
+[2026-03-23T00:07:09.348+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-23T00:07:09.355+0000] {taskinstance.py:2330} INFO - Executing <Task(SQLExecuteQueryOperator): init_tables> on 2026-03-23 00:07:07.987506+00:00
+[2026-03-23T00:07:09.360+0000] {standard_task_runner.py:64} INFO - Started process 684 to run task
+[2026-03-23T00:07:09.363+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'normalize_orders_dag', 'init_tables', 'manual__2026-03-23T00:07:07.987506+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/normalized_orders_dags.py', '--cfg-path', '/tmp/tmp83ey10q6']
+[2026-03-23T00:07:09.367+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask init_tables
+[2026-03-23T00:07:09.381+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-23T00:07:09.405+0000] {task_command.py:426} INFO - Running <TaskInstance: normalize_orders_dag.init_tables manual__2026-03-23T00:07:07.987506+00:00 [running]> on host 91c62af85091
+[2026-03-23T00:07:09.914+0000] {abstractoperator.py:725} ERROR - Exception rendering Jinja template for task 'init_tables', field 'sql'. Template: '/opt/***/sql/ddl.sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 717, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/template/templater.py", line 166, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /opt/airflow/sql/ddl.sql
+[2026-03-23T00:07:09.921+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2479, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2633, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context, jinja_env=jinja_env)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3094, in render_templates
+    original_task.render_template_fields(context, jinja_env)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1337, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 717, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/template/templater.py", line 166, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.9/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /opt/airflow/sql/ddl.sql
+[2026-03-23T00:07:09.934+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=normalize_orders_dag, task_id=init_tables, run_id=manual__2026-03-23T00:07:07.987506+00:00, execution_date=20260323T000707, start_date=20260323T000709, end_date=20260323T000709
+[2026-03-23T00:07:09.946+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 4 for task init_tables (/opt/airflow/sql/ddl.sql; 684)
+[2026-03-23T00:07:09.993+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-03-23T00:07:10.007+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T00:07:10.010+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
